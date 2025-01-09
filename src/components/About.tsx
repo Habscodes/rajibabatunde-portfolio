@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Network, Server, Users } from 'lucide-react';
+import myImageb from './assets/img-b.jpg'
 
 const skills = [
   { name: 'ICT Project Management', icon: Server },
@@ -12,7 +13,7 @@ export default function About() {
   return (
     <div id="about" className="py-24 sm:py-32">
       <img
-            src="/src/assets/img-b.jpg"
+            src={myImageb}
             alt="Profile picture of Raji-Shittu Abdulwaheed Babatunde"
             className="mx-auto w-40 h-40 rounded-full"
           />
