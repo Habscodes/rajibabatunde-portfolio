@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import myImage from './assets/img.jpg'
 
 export default function Hero() {
   return (
@@ -7,7 +8,7 @@ export default function Hero() {
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="text-center">
         <img
-            src="/src/assets/img.jpg"
+            src={myImage}
             alt="Profile picture of Raji-Shittu Abdulwaheed Babatunde"
             className="mx-auto w-40 h-40 rounded-full"
           />
